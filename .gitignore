@@ -5,3 +5,7 @@ oil_hydro_biomass_gas_nuclear_merged.csv
 all_features_merged.csv
 all_dummies.csv
 dummies_cleaned.csv
+X_test.csv
+X_train.csv
+y_test.csv
+y_train.csv

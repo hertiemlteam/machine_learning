@@ -12,3 +12,13 @@ y_train.csv
 X_scaled.csv
 X_train_scaled.csv
 X_test_scaled.csv
+ridgeCV_actual_vs_predicted.csv
+dates_shift.csv
+X_train_shift.csv
+X_test_shift.csv
+y_train_shift.csv
+y_test_shift.csv
+X_train_shift_year.csv
+X_test_shift_year.csv
+y_train_shift_year.csv
+y_test_shift_year.csv

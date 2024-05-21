@@ -22,3 +22,12 @@ X_train_shift_year.csv
 X_test_shift_year.csv
 y_train_shift_year.csv
 y_test_shift_year.csv
+X_train_shift_shorter.csv
+X_test_shift_shorter.csv
+y_train_shift_shorter.csv
+y_test_shift_shorter.csv
+dates_shift_exclude.csv
+lasso_with_interactions_model.pkl
+mse_test_interactions.npy
+optimal_alpha_with_interactions.npy
+predictions_lassoCV_with_interactions.csv

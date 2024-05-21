@@ -1,0 +1,2807 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>8931f6637837419695f456b9075bb508</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="36260d7d-f7b3-4df6-a474-bb8ccb9bb9ba" class="cell code"
+data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.dates <span class="im">as</span> mdate</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime <span class="im">as</span> dt</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> itertools <span class="im">import</span> product</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> TimeSeriesSplit</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error</span></code></pre></div>
+</div>
+<div id="ee638838-0b77-4ea8-9731-44d6f8388d42" class="cell code"
+data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>dates_cleaned <span class="op">=</span> pd.read_csv(<span class="st">&quot;/Users/anzhelikabelozerova/Downloads/dummies_cleaned.csv&quot;</span>, index_col<span class="op">=</span><span class="dv">0</span>) </span></code></pre></div>
+</div>
+<div id="d18058eb-6856-4475-9371-39b36d4aaa4e" class="cell code"
+data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>dates_cleaned</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>Country</th>
+      <th>energy_price</th>
+      <th>biomass</th>
+      <th>gas</th>
+      <th>nuclear</th>
+      <th>year</th>
+      <th>month</th>
+      <th>day</th>
+      <th>hour</th>
+      <th>...</th>
+      <th>week_number_51</th>
+      <th>week_number_52</th>
+      <th>week_number_53</th>
+      <th>day_of_week_0</th>
+      <th>day_of_week_1</th>
+      <th>day_of_week_2</th>
+      <th>day_of_week_3</th>
+      <th>day_of_week_4</th>
+      <th>day_of_week_5</th>
+      <th>day_of_week_6</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>CH</td>
+      <td>44.94</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>CZ</td>
+      <td>26.48</td>
+      <td>135.000000</td>
+      <td>172.000000</td>
+      <td>2596.000000</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>DK_1</td>
+      <td>25.02</td>
+      <td>18.000000</td>
+      <td>233.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>DK_2</td>
+      <td>27.38</td>
+      <td>25.000000</td>
+      <td>304.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>EE</td>
+      <td>27.38</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>3294775</th>
+      <td>2023-12-31 00:00:00</td>
+      <td>SE_2</td>
+      <td>44.87</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2023</td>
+      <td>12</td>
+      <td>31</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3294776</th>
+      <td>2023-12-31 00:00:00</td>
+      <td>SE_3</td>
+      <td>44.87</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2023</td>
+      <td>12</td>
+      <td>31</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3294777</th>
+      <td>2023-12-31 00:00:00</td>
+      <td>SE_4</td>
+      <td>44.87</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2023</td>
+      <td>12</td>
+      <td>31</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3294778</th>
+      <td>2023-12-31 00:00:00</td>
+      <td>SI</td>
+      <td>33.30</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2023</td>
+      <td>12</td>
+      <td>31</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3294779</th>
+      <td>2023-12-31 00:00:00</td>
+      <td>SK</td>
+      <td>35.14</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2023</td>
+      <td>12</td>
+      <td>31</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+<p>3294780 rows × 199 columns</p>
+</div>
+</div>
+</div>
+<div id="d53b335b-9e80-4cbb-be3e-b110cc5ebb5a" class="cell code"
+data-execution_count="4">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> dates_cleaned.columns:</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(col)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Date
+Country
+energy_price
+biomass
+gas
+nuclear
+year
+month
+day
+hour
+week_number
+day_of_week
+weekend
+Country_BE
+Country_BG
+Country_CH
+Country_CZ
+Country_Combined_AT_DE_AT_LU
+Country_DK_1
+Country_DK_2
+Country_EE
+Country_ES
+Country_FI
+Country_FR
+Country_GB
+Country_GR
+Country_HR
+Country_HU
+Country_IT_BRNN
+Country_IT_CNOR
+Country_IT_CSUD
+Country_IT_FOGN
+Country_IT_GR
+Country_IT_NORD
+Country_IT_NORD_AT
+Country_IT_NORD_CH
+Country_IT_NORD_FR
+Country_IT_NORD_SI
+Country_IT_PRGP
+Country_IT_SACO_AC
+Country_IT_SACO_DC
+Country_IT_SARD
+Country_IT_SICI
+Country_IT_SUD
+Country_LV
+Country_ME
+Country_MK
+Country_NL
+Country_NO_1
+Country_NO_2
+Country_NO_3
+Country_NO_4
+Country_NO_5
+Country_PL
+Country_PT
+Country_RO
+Country_RS
+Country_SE_1
+Country_SE_2
+Country_SE_3
+Country_SE_4
+Country_SI
+Country_SK
+year_2015
+year_2016
+year_2017
+year_2018
+year_2019
+year_2020
+year_2021
+year_2022
+year_2023
+month_1
+month_2
+month_3
+month_4
+month_5
+month_6
+month_7
+month_8
+month_9
+month_10
+month_11
+month_12
+day_1
+day_2
+day_3
+day_4
+day_5
+day_6
+day_7
+day_8
+day_9
+day_10
+day_11
+day_12
+day_13
+day_14
+day_15
+day_16
+day_17
+day_18
+day_19
+day_20
+day_21
+day_22
+day_23
+day_24
+day_25
+day_26
+day_27
+day_28
+day_29
+day_30
+day_31
+hour_0
+hour_1
+hour_2
+hour_3
+hour_4
+hour_5
+hour_6
+hour_7
+hour_8
+hour_9
+hour_10
+hour_11
+hour_12
+hour_13
+hour_14
+hour_15
+hour_16
+hour_17
+hour_18
+hour_19
+hour_20
+hour_21
+hour_22
+hour_23
+week_number_1
+week_number_2
+week_number_3
+week_number_4
+week_number_5
+week_number_6
+week_number_7
+week_number_8
+week_number_9
+week_number_10
+week_number_11
+week_number_12
+week_number_13
+week_number_14
+week_number_15
+week_number_16
+week_number_17
+week_number_18
+week_number_19
+week_number_20
+week_number_21
+week_number_22
+week_number_23
+week_number_24
+week_number_25
+week_number_26
+week_number_27
+week_number_28
+week_number_29
+week_number_30
+week_number_31
+week_number_32
+week_number_33
+week_number_34
+week_number_35
+week_number_36
+week_number_37
+week_number_38
+week_number_39
+week_number_40
+week_number_41
+week_number_42
+week_number_43
+week_number_44
+week_number_45
+week_number_46
+week_number_47
+week_number_48
+week_number_49
+week_number_50
+week_number_51
+week_number_52
+week_number_53
+day_of_week_0
+day_of_week_1
+day_of_week_2
+day_of_week_3
+day_of_week_4
+day_of_week_5
+day_of_week_6
+</code></pre>
+</div>
+</div>
+<div id="d3aedfec-be00-4438-92df-569a692deef8" class="cell code"
+data-execution_count="5">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>dates_shift <span class="op">=</span> dates_cleaned.copy()</span></code></pre></div>
+</div>
+<div id="43f5b629-7904-44dd-98d7-3597e88c1d0f" class="cell code"
+data-execution_count="6">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>dates_shift[<span class="st">&#39;energy_price_target&#39;</span>] <span class="op">=</span> dates_shift.groupby(<span class="st">&#39;Country&#39;</span>)[<span class="st">&#39;energy_price&#39;</span>].shift(<span class="op">-</span><span class="dv">12</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>dates_shift.dropna(inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div id="9c90e11c-5a3f-46b2-b4bd-88e6852ff010" class="cell code"
+data-execution_count="7">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>dates_shift.head(<span class="dv">50</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>Country</th>
+      <th>energy_price</th>
+      <th>biomass</th>
+      <th>gas</th>
+      <th>nuclear</th>
+      <th>year</th>
+      <th>month</th>
+      <th>day</th>
+      <th>hour</th>
+      <th>...</th>
+      <th>week_number_52</th>
+      <th>week_number_53</th>
+      <th>day_of_week_0</th>
+      <th>day_of_week_1</th>
+      <th>day_of_week_2</th>
+      <th>day_of_week_3</th>
+      <th>day_of_week_4</th>
+      <th>day_of_week_5</th>
+      <th>day_of_week_6</th>
+      <th>energy_price_target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>CH</td>
+      <td>44.94</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>35.09</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>CZ</td>
+      <td>26.48</td>
+      <td>135.000000</td>
+      <td>172.000000</td>
+      <td>2596.000000</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>24.87</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>DK_1</td>
+      <td>25.02</td>
+      <td>18.000000</td>
+      <td>233.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>16.08</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>DK_2</td>
+      <td>27.38</td>
+      <td>25.000000</td>
+      <td>304.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>16.08</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>EE</td>
+      <td>27.38</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.91</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>ES</td>
+      <td>50.10</td>
+      <td>447.000000</td>
+      <td>4844.000000</td>
+      <td>7096.000000</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>45.14</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>FI</td>
+      <td>27.38</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.91</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>GB</td>
+      <td>0.00</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>GR</td>
+      <td>51.10</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>52.18</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>HU</td>
+      <td>45.07</td>
+      <td>93.000000</td>
+      <td>607.250000</td>
+      <td>1928.333333</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>26.25</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>LV</td>
+      <td>30.03</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.91</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>NO_1</td>
+      <td>27.40</td>
+      <td>252.200902</td>
+      <td>20.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>27.09</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>NO_2</td>
+      <td>27.40</td>
+      <td>252.200902</td>
+      <td>0.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>27.09</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>NO_3</td>
+      <td>28.16</td>
+      <td>252.200902</td>
+      <td>39.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>28.57</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>NO_4</td>
+      <td>28.16</td>
+      <td>252.200902</td>
+      <td>222.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>28.57</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>NO_5</td>
+      <td>27.40</td>
+      <td>252.200902</td>
+      <td>96.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>27.09</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>PT</td>
+      <td>50.10</td>
+      <td>307.000000</td>
+      <td>454.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>45.14</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>RO</td>
+      <td>202.08</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>117.69</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>SE_1</td>
+      <td>27.38</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.91</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>SE_2</td>
+      <td>27.38</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.91</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>SE_3</td>
+      <td>27.38</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.91</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>SE_4</td>
+      <td>27.38</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.91</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>SI</td>
+      <td>27.30</td>
+      <td>10.000000</td>
+      <td>57.000000</td>
+      <td>696.000000</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>34.00</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2015-01-01 00:00:00</td>
+      <td>SK</td>
+      <td>26.48</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>24.87</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>CH</td>
+      <td>43.43</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>35.39</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>CZ</td>
+      <td>24.20</td>
+      <td>136.000000</td>
+      <td>175.000000</td>
+      <td>2860.000000</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>24.00</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>DK_1</td>
+      <td>18.29</td>
+      <td>15.000000</td>
+      <td>225.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>16.05</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>DK_2</td>
+      <td>18.29</td>
+      <td>24.000000</td>
+      <td>303.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.42</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>EE</td>
+      <td>23.37</td>
+      <td>65.000000</td>
+      <td>5.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.42</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>ES</td>
+      <td>48.10</td>
+      <td>449.000000</td>
+      <td>5196.000000</td>
+      <td>7096.000000</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>47.35</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>FI</td>
+      <td>23.37</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.42</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>GB</td>
+      <td>0.00</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>GR</td>
+      <td>48.78</td>
+      <td>252.200902</td>
+      <td>506.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>32.00</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>HU</td>
+      <td>44.16</td>
+      <td>88.500000</td>
+      <td>599.750000</td>
+      <td>1928.000000</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>24.83</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>LV</td>
+      <td>29.59</td>
+      <td>81.000000</td>
+      <td>0.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.42</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>NO_1</td>
+      <td>27.07</td>
+      <td>252.200902</td>
+      <td>20.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>27.01</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>NO_2</td>
+      <td>27.07</td>
+      <td>252.200902</td>
+      <td>0.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>27.01</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>NO_3</td>
+      <td>28.05</td>
+      <td>252.200902</td>
+      <td>39.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>28.60</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>NO_4</td>
+      <td>28.05</td>
+      <td>252.200902</td>
+      <td>221.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>28.60</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>NO_5</td>
+      <td>27.07</td>
+      <td>252.200902</td>
+      <td>96.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>27.01</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>PT</td>
+      <td>48.10</td>
+      <td>310.000000</td>
+      <td>446.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>47.35</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>RO</td>
+      <td>198.00</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>111.33</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>SE_1</td>
+      <td>23.37</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.42</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>SE_2</td>
+      <td>23.37</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.42</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>SE_3</td>
+      <td>23.37</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.42</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>SE_4</td>
+      <td>23.37</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.42</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>SI</td>
+      <td>23.25</td>
+      <td>9.000000</td>
+      <td>56.000000</td>
+      <td>696.000000</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>32.75</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>2015-01-01 01:00:00</td>
+      <td>SK</td>
+      <td>24.20</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>24.00</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>2015-01-01 02:00:00</td>
+      <td>CH</td>
+      <td>38.08</td>
+      <td>252.200902</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>31.47</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>2015-01-01 02:00:00</td>
+      <td>CZ</td>
+      <td>22.06</td>
+      <td>137.000000</td>
+      <td>174.000000</td>
+      <td>2888.000000</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>23.40</td>
+    </tr>
+  </tbody>
+</table>
+<p>50 rows × 200 columns</p>
+</div>
+</div>
+</div>
+<div id="52e705d0-5615-4686-9268-435a79e93db8" class="cell code"
+data-execution_count="8">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>dates_shift.sort_index(level<span class="op">=</span><span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> dates_shift.drop([<span class="st">&#39;energy_price&#39;</span>, <span class="st">&#39;energy_price_target&#39;</span>, <span class="st">&#39;Country&#39;</span>, <span class="st">&#39;Date&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)  <span class="co"># Exclude original price from features</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> dates_shift[<span class="st">&#39;energy_price_target&#39;</span>]</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize TimeSeriesSplit</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>tscv <span class="op">=</span> TimeSeriesSplit(n_splits<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize the Random Forest Regressor</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> RandomForestRegressor(n_estimators<span class="op">=</span><span class="dv">100</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize a list to store the mean squared error for each fold</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>mse_scores <span class="op">=</span> []</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply TimeSeriesSplit to df</span></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, (train_index, test_index) <span class="kw">in</span> <span class="bu">enumerate</span>(tscv.split(X)):</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>    X_train, X_test <span class="op">=</span> X.iloc[train_index], X.iloc[test_index]</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>    y_train, y_test <span class="op">=</span> y.iloc[train_index], y.iloc[test_index]</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Train the Random Forest model</span></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>    model.fit(X_train, y_train)</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Predict on the test data</span></span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>    predictions <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Calculate MSE for the current fold</span></span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>    mse <span class="op">=</span> mean_squared_error(y_test, predictions)</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>    mse_scores.append(mse)</span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Print fold results</span></span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Fold </span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">:&quot;</span>)</span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;  Train Indices: </span><span class="sc">{</span>train_index<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;  Test Indices: </span><span class="sc">{</span>test_index<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;  Mean Squared Error: </span><span class="sc">{</span>mse<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Fold 0:
+  Train Indices: [     0      1      2 ... 156877 156878 156879]
+  Test Indices: [156880 156881 156882 ... 313742 313743 313744]
+  Mean Squared Error: 32936.215309644824
+Fold 1:
+  Train Indices: [     0      1      2 ... 313742 313743 313744]
+  Test Indices: [313745 313746 313747 ... 470607 470608 470609]
+  Mean Squared Error: 525.8802293063135
+Fold 2:
+  Train Indices: [     0      1      2 ... 470607 470608 470609]
+  Test Indices: [470610 470611 470612 ... 627472 627473 627474]
+  Mean Squared Error: 36996.56233169949
+Fold 3:
+  Train Indices: [     0      1      2 ... 627472 627473 627474]
+  Test Indices: [627475 627476 627477 ... 784337 784338 784339]
+  Mean Squared Error: 28512.60855748512
+Fold 4:
+  Train Indices: [     0      1      2 ... 784337 784338 784339]
+  Test Indices: [784340 784341 784342 ... 941202 941203 941204]
+  Mean Squared Error: 6941.737910488647
+Fold 5:
+  Train Indices: [     0      1      2 ... 941202 941203 941204]
+  Test Indices: [ 941205  941206  941207 ... 1098067 1098068 1098069]
+  Mean Squared Error: 26924.233837881173
+Fold 6:
+  Train Indices: [      0       1       2 ... 1098067 1098068 1098069]
+  Test Indices: [1098070 1098071 1098072 ... 1254932 1254933 1254934]
+  Mean Squared Error: 980.0858464189026
+Fold 7:
+  Train Indices: [      0       1       2 ... 1254932 1254933 1254934]
+  Test Indices: [1254935 1254936 1254937 ... 1411797 1411798 1411799]
+  Mean Squared Error: 818.9478672597447
+Fold 8:
+  Train Indices: [      0       1       2 ... 1411797 1411798 1411799]
+  Test Indices: [1411800 1411801 1411802 ... 1568662 1568663 1568664]
+  Mean Squared Error: 19832.62773191677
+Fold 9:
+  Train Indices: [      0       1       2 ... 1568662 1568663 1568664]
+  Test Indices: [1568665 1568666 1568667 ... 1725527 1725528 1725529]
+  Mean Squared Error: 752.7660275757846
+Fold 10:
+  Train Indices: [      0       1       2 ... 1725527 1725528 1725529]
+  Test Indices: [1725530 1725531 1725532 ... 1882392 1882393 1882394]
+  Mean Squared Error: 7352.992649445868
+Fold 11:
+  Train Indices: [      0       1       2 ... 1882392 1882393 1882394]
+  Test Indices: [1882395 1882396 1882397 ... 2039257 2039258 2039259]
+  Mean Squared Error: 2816.203625294293
+Fold 12:
+  Train Indices: [      0       1       2 ... 2039257 2039258 2039259]
+  Test Indices: [2039260 2039261 2039262 ... 2196122 2196123 2196124]
+  Mean Squared Error: 4895.516442993405
+Fold 13:
+  Train Indices: [      0       1       2 ... 2196122 2196123 2196124]
+  Test Indices: [2196125 2196126 2196127 ... 2352987 2352988 2352989]
+  Mean Squared Error: 1123.1454844083316
+Fold 14:
+  Train Indices: [      0       1       2 ... 2352987 2352988 2352989]
+  Test Indices: [2352990 2352991 2352992 ... 2509852 2509853 2509854]
+  Mean Squared Error: 5635.65974516924
+Fold 15:
+  Train Indices: [      0       1       2 ... 2509852 2509853 2509854]
+  Test Indices: [2509855 2509856 2509857 ... 2666717 2666718 2666719]
+  Mean Squared Error: 21438.28448533438
+Fold 16:
+  Train Indices: [      0       1       2 ... 2666717 2666718 2666719]
+  Test Indices: [2666720 2666721 2666722 ... 2823582 2823583 2823584]
+  Mean Squared Error: 19750.23225528676
+Fold 17:
+  Train Indices: [      0       1       2 ... 2823582 2823583 2823584]
+  Test Indices: [2823585 2823586 2823587 ... 2980447 2980448 2980449]
+  Mean Squared Error: 68715.96859123303
+Fold 18:
+  Train Indices: [      0       1       2 ... 2980447 2980448 2980449]
+  Test Indices: [2980450 2980451 2980452 ... 3137312 3137313 3137314]
+  Mean Squared Error: 3256.8125535355102
+Fold 19:
+  Train Indices: [      0       1       2 ... 3137312 3137313 3137314]
+  Test Indices: [3137315 3137316 3137317 ... 3294177 3294178 3294179]
+  Mean Squared Error: 15894.23672145299
+</code></pre>
+</div>
+</div>
+<div id="92a5c69d-8fcd-49d5-a3bc-28205fee2b83" class="cell code"
+data-execution_count="10">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>all_feature_importances <span class="op">=</span> []</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>feature_importances <span class="op">=</span> model.feature_importances_</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Append feature importances to the list</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>all_feature_importances.append(feature_importances)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert list of feature importances to a numpy array</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>all_feature_importances <span class="op">=</span> np.array(all_feature_importances)</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate mean feature importance across all folds</span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>mean_feature_importance <span class="op">=</span> np.mean(all_feature_importances, axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the mean feature importances in descending order and get their indices</span></span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>sorted_indices <span class="op">=</span> np.argsort(mean_feature_importance)[::<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Mean Feature Importances Across Folds&#39;</span>, fontsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>plt.bar(<span class="bu">range</span>(<span class="bu">len</span>(mean_feature_importance)), mean_feature_importance[sorted_indices], align<span class="op">=</span><span class="st">&#39;center&#39;</span>, alpha<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="bu">len</span>(mean_feature_importance)), X_train.columns[sorted_indices], rotation<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Relative Importance&#39;</span>, fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Feature&#39;</span>, fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_004eae135648475dba1b327eaffd6bef/8523b9bbd4092580f26ead63708daddca9068d9d.png" /></p>
+</div>
+</div>
+<div id="d8698377-180a-4ae6-8a46-391df747bee3" class="cell code">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>top_features <span class="op">=</span> <span class="dv">15</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">8</span>))</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Mean Feature Importances Across Folds&#39;</span>, fontsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>bars <span class="op">=</span> plt.bar(<span class="bu">range</span>(top_features), mean_feature_importance[sorted_indices][:top_features], align<span class="op">=</span><span class="st">&#39;center&#39;</span>, alpha<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(top_features), X_train.columns[sorted_indices][:top_features], rotation<span class="op">=</span><span class="dv">45</span>, fontsize<span class="op">=</span><span class="dv">12</span>)  </span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Relative Importance&#39;</span>, fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Feature&#39;</span>, fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+</div>
+<div id="3fee6e6e-7b82-4d1b-b5a7-0751974df484" class="cell code"
+data-execution_count="6">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>dates_shift_exclude <span class="op">=</span> pd.read_csv(<span class="st">&quot;notebooks/dates_shift_exclude.csv&quot;</span>, index_col<span class="op">=</span><span class="dv">0</span>) </span></code></pre></div>
+</div>
+<div id="c8f0aa1e-e4e1-426d-beee-e8578c9066bb" class="cell code"
+data-execution_count="7">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>dates_shift_exclude.sort_index(level<span class="op">=</span><span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>X_2 <span class="op">=</span> dates_shift_exclude.drop([<span class="st">&#39;energy_price&#39;</span>, <span class="st">&#39;energy_price_target&#39;</span>, <span class="st">&#39;Country&#39;</span>, <span class="st">&#39;Date&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>) </span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>y_2 <span class="op">=</span> dates_shift_exclude[<span class="st">&#39;energy_price_target&#39;</span>]</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize TimeSeriesSplit</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>tscv <span class="op">=</span> TimeSeriesSplit(n_splits<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize the Random Forest Regressor</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>model_2 <span class="op">=</span> RandomForestRegressor(n_estimators<span class="op">=</span><span class="dv">100</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize a list to store the mean squared error for each fold</span></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>mse_scores_2 <span class="op">=</span> []</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply TimeSeriesSplit to df</span></span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, (train_index, test_index) <span class="kw">in</span> <span class="bu">enumerate</span>(tscv.split(X_2)):</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>    X_train_2, X_test_2 <span class="op">=</span> X_2.iloc[train_index], X_2.iloc[test_index]</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>    y_train_2, y_test_2 <span class="op">=</span> y_2.iloc[train_index], y_2.iloc[test_index]</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Train the Random Forest model</span></span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>    model_2.fit(X_train_2, y_train_2)</span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Predict on the test data</span></span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>    predictions_2 <span class="op">=</span> model_2.predict(X_test_2)</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Calculate MSE for the current fold</span></span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>    mse_2 <span class="op">=</span> mean_squared_error(y_test_2, predictions_2)</span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a>    mse_scores_2.append(mse_2)</span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Print fold results</span></span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Fold </span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">:&quot;</span>)</span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;  Train Indices: </span><span class="sc">{</span>train_index<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;  Test Indices: </span><span class="sc">{</span>test_index<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;  Mean Squared Error: </span><span class="sc">{</span>mse_2<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Get feature importances</span></span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>    feature_importances <span class="op">=</span> model_2.feature_importances_</span>
+<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Append feature importances to the list</span></span>
+<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a>    all_feature_importances <span class="op">=</span> []</span>
+<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Append feature importances to the list</span></span>
+<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a>    all_feature_importances.append(feature_importances)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Fold 0:
+  Train Indices: [     0      1      2 ... 130901 130902 130903]
+  Test Indices: [130904 130905 130906 ... 261796 261797 261798]
+  Mean Squared Error: 175.23039623056633
+Fold 1:
+  Train Indices: [     0      1      2 ... 261796 261797 261798]
+  Test Indices: [261799 261800 261801 ... 392691 392692 392693]
+  Mean Squared Error: 176.97532889425085
+Fold 2:
+  Train Indices: [     0      1      2 ... 392691 392692 392693]
+  Test Indices: [392694 392695 392696 ... 523586 523587 523588]
+  Mean Squared Error: 146.1232723381237
+Fold 3:
+  Train Indices: [     0      1      2 ... 523586 523587 523588]
+  Test Indices: [523589 523590 523591 ... 654481 654482 654483]
+  Mean Squared Error: 148.12158807954586
+Fold 4:
+  Train Indices: [     0      1      2 ... 654481 654482 654483]
+  Test Indices: [654484 654485 654486 ... 785376 785377 785378]
+  Mean Squared Error: 505.658041902896
+Fold 5:
+  Train Indices: [     0      1      2 ... 785376 785377 785378]
+  Test Indices: [785379 785380 785381 ... 916271 916272 916273]
+  Mean Squared Error: 645.7460851888353
+Fold 6:
+  Train Indices: [     0      1      2 ... 916271 916272 916273]
+  Test Indices: [ 916274  916275  916276 ... 1047166 1047167 1047168]
+  Mean Squared Error: 171.23317289729974
+Fold 7:
+  Train Indices: [      0       1       2 ... 1047166 1047167 1047168]
+  Test Indices: [1047169 1047170 1047171 ... 1178061 1178062 1178063]
+  Mean Squared Error: 379.01547242364256
+Fold 8:
+  Train Indices: [      0       1       2 ... 1178061 1178062 1178063]
+  Test Indices: [1178064 1178065 1178066 ... 1308956 1308957 1308958]
+  Mean Squared Error: 220.52031910362518
+Fold 9:
+  Train Indices: [      0       1       2 ... 1308956 1308957 1308958]
+  Test Indices: [1308959 1308960 1308961 ... 1439851 1439852 1439853]
+  Mean Squared Error: 280.6821057535294
+Fold 10:
+  Train Indices: [      0       1       2 ... 1439851 1439852 1439853]
+  Test Indices: [1439854 1439855 1439856 ... 1570746 1570747 1570748]
+  Mean Squared Error: 254.52710056236825
+Fold 11:
+  Train Indices: [      0       1       2 ... 1570746 1570747 1570748]
+  Test Indices: [1570749 1570750 1570751 ... 1701641 1701642 1701643]
+  Mean Squared Error: 368.4962771901931
+Fold 12:
+  Train Indices: [      0       1       2 ... 1701641 1701642 1701643]
+  Test Indices: [1701644 1701645 1701646 ... 1832536 1832537 1832538]
+  Mean Squared Error: 364.93387048570446
+Fold 13:
+  Train Indices: [      0       1       2 ... 1832536 1832537 1832538]
+  Test Indices: [1832539 1832540 1832541 ... 1963431 1963432 1963433]
+  Mean Squared Error: 269.76702060766183
+Fold 14:
+  Train Indices: [      0       1       2 ... 1963431 1963432 1963433]
+  Test Indices: [1963434 1963435 1963436 ... 2094326 2094327 2094328]
+  Mean Squared Error: 294.07559571169344
+Fold 15:
+  Train Indices: [      0       1       2 ... 2094326 2094327 2094328]
+  Test Indices: [2094329 2094330 2094331 ... 2225221 2225222 2225223]
+  Mean Squared Error: 605.1264258225189
+Fold 16:
+  Train Indices: [      0       1       2 ... 2225221 2225222 2225223]
+  Test Indices: [2225224 2225225 2225226 ... 2356116 2356117 2356118]
+  Mean Squared Error: 3287.8411208157736
+Fold 17:
+  Train Indices: [      0       1       2 ... 2356116 2356117 2356118]
+  Test Indices: [2356119 2356120 2356121 ... 2487011 2487012 2487013]
+  Mean Squared Error: 7248.576261803121
+Fold 18:
+  Train Indices: [      0       1       2 ... 2487011 2487012 2487013]
+  Test Indices: [2487014 2487015 2487016 ... 2617906 2617907 2617908]
+  Mean Squared Error: 1851.3012605556567
+Fold 19:
+  Train Indices: [      0       1       2 ... 2617906 2617907 2617908]
+  Test Indices: [2617909 2617910 2617911 ... 2748801 2748802 2748803]
+  Mean Squared Error: 12467.268424190457
+</code></pre>
+</div>
+</div>
+<div id="eb8c6291-1d5b-4593-87ed-547e478247be" class="cell code"
+data-execution_count="9">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert list of feature importances to a numpy array</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>all_feature_importances <span class="op">=</span> np.array(all_feature_importances)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate mean feature importance across all folds</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>mean_feature_importance <span class="op">=</span> np.mean(all_feature_importances, axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort the mean feature importances in descending order and get their indices</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>sorted_indices <span class="op">=</span> np.argsort(mean_feature_importance)[::<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">8</span>))</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Mean Feature Importances Across Folds&#39;</span>, fontsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>plt.bar(<span class="bu">range</span>(<span class="bu">len</span>(mean_feature_importance)), mean_feature_importance[sorted_indices], align<span class="op">=</span><span class="st">&#39;center&#39;</span>, alpha<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(<span class="bu">len</span>(mean_feature_importance)), X_train_2.columns[sorted_indices], rotation<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Relative Importance&#39;</span>, fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Feature&#39;</span>, fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()  </span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_004eae135648475dba1b327eaffd6bef/ca2a696c76a5779e0e40a95dec53938803e98ea8.png" /></p>
+</div>
+</div>
+<div id="36cf9a13-4413-40ac-a5c8-2d9b93f898de" class="cell code"
+data-execution_count="10">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>top_features <span class="op">=</span> <span class="dv">15</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">8</span>))</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Mean Feature Importances Across Folds&#39;</span>, fontsize<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>bars <span class="op">=</span> plt.bar(<span class="bu">range</span>(top_features), mean_feature_importance[sorted_indices][:top_features], align<span class="op">=</span><span class="st">&#39;center&#39;</span>, alpha<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>plt.xticks(<span class="bu">range</span>(top_features), X_train_2.columns[sorted_indices][:top_features], rotation<span class="op">=</span><span class="dv">45</span>, fontsize<span class="op">=</span><span class="dv">12</span>)  </span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Relative Importance&#39;</span>, fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Feature&#39;</span>, fontsize<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_004eae135648475dba1b327eaffd6bef/71485d55e9ca35935b64b715e0644f6745a10f49.png" /></p>
+</div>
+</div>
+<div id="cb50d3e7-9c0c-493b-99ca-d356462e4191" class="cell code"
+data-execution_count="18">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>plt.scatter(y_test_2, predictions_2, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>, alpha<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>plt.plot([y_test_2.<span class="bu">min</span>(), y_test_2.<span class="bu">max</span>()], [y_test_2.<span class="bu">min</span>(), y_test_2.<span class="bu">max</span>()], color<span class="op">=</span><span class="st">&#39;gray&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Actual&#39;</span>)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Predicted&#39;</span>)</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Actual vs. Predicted&#39;</span>)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_004eae135648475dba1b327eaffd6bef/22ddce2b7aef1efc522805bba76de232a96e19be.png" /></p>
+</div>
+</div>
+<div id="7b915fd7-04ab-4378-a952-a83f807021ea" class="cell code"
+data-execution_count="21">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_absolute_error, r2_score</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate Mean Absolute Error</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>mae <span class="op">=</span> mean_absolute_error(y_test_2, predictions_2)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Mean Absolute Error:&quot;</span>, mae)</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate R-squared</span></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>r_squared <span class="op">=</span> r2_score(y_test_2, predictions_2)</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;R-squared:&quot;</span>, r_squared)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mean Absolute Error: 84.05360051491654
+R-squared: -3.640089618401806
+</code></pre>
+</div>
+</div>
+<div id="07143038-0256-432e-b65f-72a137647bc0" class="cell code"
+data-execution_count="15">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>filtered_rows.isnull().values.<span class="bu">any</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<pre><code>False</code></pre>
+</div>
+</div>
+<div id="76191310-9335-4ef3-aae0-ff378d64ffd9" class="cell code"
+data-execution_count="6">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>dates_cleaned[<span class="st">&#39;Country_Combined_DE_LU_DE_AT_LU&#39;</span>].unique()</span></code></pre></div>
+<div class="output error" data-ename="KeyError"
+data-evalue="&#39;Country_Combined_DE_LU_DE_AT_LU&#39;">
+<pre><code>---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+File ~/miniconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/indexes/base.py:3653, in Index.get_loc(self, key)
+   3652 try:
+-&gt; 3653     return self._engine.get_loc(casted_key)
+   3654 except KeyError as err:
+
+File ~/miniconda3/envs/myenv/lib/python3.8/site-packages/pandas/_libs/index.pyx:147, in pandas._libs.index.IndexEngine.get_loc()
+
+File ~/miniconda3/envs/myenv/lib/python3.8/site-packages/pandas/_libs/index.pyx:176, in pandas._libs.index.IndexEngine.get_loc()
+
+File pandas/_libs/hashtable_class_helper.pxi:7080, in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+File pandas/_libs/hashtable_class_helper.pxi:7088, in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: &#39;Country_Combined_DE_LU_DE_AT_LU&#39;
+
+The above exception was the direct cause of the following exception:
+
+KeyError                                  Traceback (most recent call last)
+Cell In[6], line 1
+----&gt; 1 dates_cleaned[&#39;Country_Combined_DE_LU_DE_AT_LU&#39;].unique()
+
+File ~/miniconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/frame.py:3761, in DataFrame.__getitem__(self, key)
+   3759 if self.columns.nlevels &gt; 1:
+   3760     return self._getitem_multilevel(key)
+-&gt; 3761 indexer = self.columns.get_loc(key)
+   3762 if is_integer(indexer):
+   3763     indexer = [indexer]
+
+File ~/miniconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/indexes/base.py:3655, in Index.get_loc(self, key)
+   3653     return self._engine.get_loc(casted_key)
+   3654 except KeyError as err:
+-&gt; 3655     raise KeyError(key) from err
+   3656 except TypeError:
+   3657     # If we have a listlike key, _check_indexing_error will raise
+   3658     #  InvalidIndexError. Otherwise we fall through and re-raise
+   3659     #  the TypeError.
+   3660     self._check_indexing_error(key)
+
+KeyError: &#39;Country_Combined_DE_LU_DE_AT_LU&#39;
+</code></pre>
+</div>
+</div>
+<div id="060534c5-bb8e-44ec-8246-3468331d7d0f" class="cell code"
+data-execution_count="42">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>dates_cleaned[dates_cleaned[<span class="st">&#39;Country&#39;</span>] <span class="op">==</span> <span class="st">&#39;DE_AT_LU&#39;</span>]</span></code></pre></div>
+<div class="output error" data-ename="KeyError"
+data-evalue="&#39;Country&#39;">
+<pre><code>---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+File ~/miniconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/indexes/base.py:3653, in Index.get_loc(self, key)
+   3652 try:
+-&gt; 3653     return self._engine.get_loc(casted_key)
+   3654 except KeyError as err:
+
+File ~/miniconda3/envs/myenv/lib/python3.8/site-packages/pandas/_libs/index.pyx:147, in pandas._libs.index.IndexEngine.get_loc()
+
+File ~/miniconda3/envs/myenv/lib/python3.8/site-packages/pandas/_libs/index.pyx:176, in pandas._libs.index.IndexEngine.get_loc()
+
+File pandas/_libs/hashtable_class_helper.pxi:7080, in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+File pandas/_libs/hashtable_class_helper.pxi:7088, in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: &#39;Country&#39;
+
+The above exception was the direct cause of the following exception:
+
+KeyError                                  Traceback (most recent call last)
+Cell In[42], line 1
+----&gt; 1 dates_cleaned[dates_cleaned[&#39;Country&#39;] == &#39;DE_AT_LU&#39;]
+
+File ~/miniconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/frame.py:3761, in DataFrame.__getitem__(self, key)
+   3759 if self.columns.nlevels &gt; 1:
+   3760     return self._getitem_multilevel(key)
+-&gt; 3761 indexer = self.columns.get_loc(key)
+   3762 if is_integer(indexer):
+   3763     indexer = [indexer]
+
+File ~/miniconda3/envs/myenv/lib/python3.8/site-packages/pandas/core/indexes/base.py:3655, in Index.get_loc(self, key)
+   3653     return self._engine.get_loc(casted_key)
+   3654 except KeyError as err:
+-&gt; 3655     raise KeyError(key) from err
+   3656 except TypeError:
+   3657     # If we have a listlike key, _check_indexing_error will raise
+   3658     #  InvalidIndexError. Otherwise we fall through and re-raise
+   3659     #  the TypeError.
+   3660     self._check_indexing_error(key)
+
+KeyError: &#39;Country&#39;
+</code></pre>
+</div>
+</div>
+<div id="345e65b5-3705-4e69-8d21-26df6b181406" class="cell code"
+data-execution_count="40">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>dates_cleaned</span></code></pre></div>
+<div class="output execute_result" data-execution_count="40">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>Date</th>
+      <th>Country</th>
+      <th>energy_price</th>
+      <th>biomass</th>
+      <th>gas</th>
+      <th>nuclear</th>
+      <th>year</th>
+      <th>month</th>
+      <th>day</th>
+      <th>hour</th>
+      <th>week_number</th>
+      <th>day_of_week</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1976013</td>
+      <td>2015-01-01 00:00:00</td>
+      <td>CH</td>
+      <td>44.94</td>
+      <td>434.052289</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1976014</td>
+      <td>2015-01-01 00:00:00</td>
+      <td>CZ</td>
+      <td>26.48</td>
+      <td>135.000000</td>
+      <td>172.000000</td>
+      <td>2596.000000</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1976017</td>
+      <td>2015-01-01 00:00:00</td>
+      <td>DK_1</td>
+      <td>25.02</td>
+      <td>18.000000</td>
+      <td>233.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1976018</td>
+      <td>2015-01-01 00:00:00</td>
+      <td>DK_2</td>
+      <td>27.38</td>
+      <td>25.000000</td>
+      <td>304.000000</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1976019</td>
+      <td>2015-01-01 00:00:00</td>
+      <td>EE</td>
+      <td>27.38</td>
+      <td>434.052289</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2015</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>3371335</th>
+      <td>5551058</td>
+      <td>2023-12-31 00:00:00</td>
+      <td>SE_2</td>
+      <td>44.87</td>
+      <td>434.052289</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2023</td>
+      <td>12</td>
+      <td>31</td>
+      <td>0</td>
+      <td>52</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>3371336</th>
+      <td>5551059</td>
+      <td>2023-12-31 00:00:00</td>
+      <td>SE_3</td>
+      <td>44.87</td>
+      <td>434.052289</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2023</td>
+      <td>12</td>
+      <td>31</td>
+      <td>0</td>
+      <td>52</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>3371337</th>
+      <td>5551060</td>
+      <td>2023-12-31 00:00:00</td>
+      <td>SE_4</td>
+      <td>44.87</td>
+      <td>434.052289</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2023</td>
+      <td>12</td>
+      <td>31</td>
+      <td>0</td>
+      <td>52</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>3371338</th>
+      <td>5551061</td>
+      <td>2023-12-31 00:00:00</td>
+      <td>SI</td>
+      <td>33.30</td>
+      <td>434.052289</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2023</td>
+      <td>12</td>
+      <td>31</td>
+      <td>0</td>
+      <td>52</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>3371339</th>
+      <td>5551062</td>
+      <td>2023-12-31 00:00:00</td>
+      <td>SK</td>
+      <td>35.14</td>
+      <td>434.052289</td>
+      <td>1180.283774</td>
+      <td>7185.089448</td>
+      <td>2023</td>
+      <td>12</td>
+      <td>31</td>
+      <td>0</td>
+      <td>52</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+<p>3371340 rows × 13 columns</p>
+</div>
+</div>
+</div>
+<div id="534b009e-f724-464e-b406-1b7f0a72ba6a" class="cell code"
+data-execution_count="5">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>dates_cleaned[<span class="st">&#39;new_category&#39;</span>] <span class="op">=</span> dates_cleaned.<span class="bu">apply</span>(<span class="kw">lambda</span> row: <span class="st">&#39;Combined_AT_DE_AT_LU&#39;</span> </span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>                              <span class="cf">if</span> (row[<span class="st">&#39;Country&#39;</span>] <span class="kw">in</span> [<span class="st">&#39;AT&#39;</span>, <span class="st">&#39;DE_LU&#39;</span>] <span class="kw">and</span> row[<span class="st">&#39;datetime&#39;</span>].year <span class="op">&lt;=</span> <span class="dv">2018</span>) </span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>                              <span class="cf">else</span> row[<span class="st">&#39;Country&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div id="276382bb-627b-4253-978d-6f7738405302" class="cell code"
+data-execution_count="23">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>dates_cleaned_fulter <span class="op">=</span> dates_cleaned[dates_cleaned[<span class="st">&#39;Country&#39;</span>] <span class="op">==</span> <span class="st">&#39;AT&#39;</span>]</span></code></pre></div>
+</div>
+<div id="9ec99ced-8e41-4797-8914-36cab3fdd7bf" class="cell code"
+data-execution_count="24">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>dates_cleaned_fulter.head(<span class="dv">70</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>Date</th>
+      <th>Country</th>
+      <th>energy_price</th>
+      <th>biomass</th>
+      <th>gas</th>
+      <th>nuclear</th>
+      <th>year</th>
+      <th>month</th>
+      <th>day</th>
+      <th>hour</th>
+      <th>week_number</th>
+      <th>day_of_week</th>
+      <th>new_category</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="e528e517-9c14-4349-ba4c-1bba9a64874a" class="cell code">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>filtered_df <span class="op">=</span> df[df[<span class="st">&#39;country_code&#39;</span>] <span class="op">==</span> <span class="st">&#39;Combined_AT_DE_AT_LU&#39;</span>]</span></code></pre></div>
+</div>
+</body>
+</html>

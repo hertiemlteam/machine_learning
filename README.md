@@ -26,4 +26,4 @@ Our predictions are designed to aid:
 - **Investors**: Providing insights for investment strategies in the energy sector.
 
 
-Thank you for visiting our repository. We encourage you to explore our project, provide feedback, and contribute to ongoing improvements in predicting energy prices within the EU.
+Thank you for visiting our repository. We encourage you to explore our project, provide feedback, and contribute to ongoing improvements in predicting energy prices.
